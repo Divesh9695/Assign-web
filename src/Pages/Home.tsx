@@ -57,7 +57,7 @@ const HeroSection: React.FC = () => {
         {/* Right Side: Image Mockups */}
         <div className="lg:w-1/2 flex flex-col items-center relative">
           <img
-            src="/public/img.webp" // Replace with your local asset or use an <Image> tag if using Next.js
+            src="/img.webp" // Replace with your local asset or use an <Image> tag if using Next.js
             alt="Devices"
             className="max-w-full h-auto"
           />
@@ -71,12 +71,12 @@ const HeroSection: React.FC = () => {
       <div className="mt-16 text-center">
         <h3 className="text-lg font-medium mb-6">As Seen In</h3>
         <div className="flex flex-wrap justify-center items-center gap-18">
-          <img src="/public/toi.png" alt="Yahoo" className="h-10" />
-          <img src="/public/yahoo.png" alt="BusinessWorld" className="h-10" />
-          <img src="/public/word.webp" alt="Print" className="h-10" />
-          <img src="/public/the.png" alt="Print" className="h-12" />
-          <img src="/public/iifl.png" alt="IIFL" className="h-10" />
-          <img src="/public/image.png" alt="Tracxn" className="h-10" />
+          <img src="/toi.png" alt="Yahoo" className="h-10" />
+          <img src="/yahoo.png" alt="BusinessWorld" className="h-10" />
+          <img src="/word.webp" alt="Print" className="h-10" />
+          <img src="/the.png" alt="Print" className="h-12" />
+          <img src="/iifl.png" alt="IIFL" className="h-10" />
+          <img src="/image.png" alt="Tracxn" className="h-10" />
     
         </div>
       </div>
