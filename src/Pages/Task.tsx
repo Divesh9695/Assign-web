@@ -13,11 +13,11 @@ const templates = [
   },
   {
     title: 'Estore',
-    image: '/estore.webp',
+    image: '/ESTORE.webp',
   },
   {
     title: 'Udyog',
-    image: '/udyog.webp',
+    image: '/UDYOG.webp',
   },
 ];
 
