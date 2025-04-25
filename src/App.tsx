@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React from "react";
 import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
 import Navbar from "./Components/Navbar";
 import Home from "./Pages/Home";
@@ -14,19 +14,13 @@ import Contact from "./Pages/Contact"
 import Top from "./Components/Top";
 
 const App: React.FC = () => {
-  const [isModalOpen, setIsModalOpen] = useState(false); // State to control modal visibility
 
-  const openLoginModal = () => {
-    setIsModalOpen(true); // Open the login modal
-  };
 
-  const closeLoginModal = () => {
-    setIsModalOpen(false); // Close the login modal
-  };
+  
 
   return (
     <Router>
-      <Navbar openLoginModal={openLoginModal} /> 
+      <Navbar/> 
       {/* Conditionally render the Login modal */}
       {/* {isModalOpen && <Login onSuccess = {closeLoginModal} />}  */}
 

@@ -1,4 +1,4 @@
-import React from "react";
+
 import FreeDomainPage from "./FreeDomainPage"
 // import Mobial from "./Mobial"
 import { Link } from 'react-router-dom';

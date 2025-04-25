@@ -1,9 +1,13 @@
 import React, { useState,useEffect } from "react";
 import { FaBars, FaTimes } from "react-icons/fa";
 import { Link } from "react-router-dom";
-import { NavbarProps } from "../Pages/types"; 
 
-const Navbar: React.FC<NavbarProps> = ({ openLoginModal }) => { 
+interface NavbarProps {
+
+}
+
+
+const Navbar: React.FC<NavbarProps> = () => { 
   const [isOpen, setIsOpen] = React.useState(false);
   const [hasShadow, setHasShadow] = useState<boolean>(false);
   const navLinks = [
@@ -64,7 +68,7 @@ const Navbar: React.FC<NavbarProps> = ({ openLoginModal }) => {
           <Link to={'/login'}>
 
           <button
-            onClick={openLoginModal} // Call the passed openLoginModal function on button click
+            // onClick={openLoginModal} // Call the passed openLoginModal function on button click
             className="border border-purple-600 text-purple-600 px-4 py-2 rounded hover:bg-purple-50 text-sm font-semibold"
           >
             Login
@@ -99,7 +103,7 @@ const Navbar: React.FC<NavbarProps> = ({ openLoginModal }) => {
           </Link>
           <Link to={'/login'}>
           <button
-            onClick={openLoginModal} // Call the passed openLoginModal function on button click
+            // onClick={openLoginModal} // Call the passed openLoginModal function on button click
             className="w-full border border-purple-600 text-purple-600 px-4 py-2 rounded hover:bg-purple-50 text-sm font-semibold"
           >
             Login
