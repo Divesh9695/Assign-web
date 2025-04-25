@@ -11,7 +11,7 @@ const Hero: React.FC = () => {
       <div className="flex-shrink-0 mb-6 md:mb-0 md:mr-10">
         <div className="bg-[#9e00ff] p-4 rounded-xl shadow-lg">
           <img
-            src="/public/men.webp"
+            src="/men.webp"
             alt="Man holding phone"
             className="w-[280px] h-auto rounded-lg"
           />

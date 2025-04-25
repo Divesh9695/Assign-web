@@ -24,7 +24,7 @@ const SignUpPage = () => {
             Join us and start building beautiful, responsive websites in minutes!
           </p>
           <img
-            src="/public/buil.webp"
+            src="/buil.webp"
             alt="Illustration"
             className="rounded-md shadow-md w-48 h-auto"
           />

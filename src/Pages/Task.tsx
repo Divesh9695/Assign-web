@@ -5,19 +5,19 @@ import { Link } from 'react-router-dom';
 const templates = [
   {
     title: 'Better Blog',
-    image: '/public/grid.webp',
+    image: '/grid.webp',
   },
   {
     title: 'Clinca',
-    image: '/public/CLINCA.webp',
+    image: '/CLINCA.webp',
   },
   {
     title: 'Estore',
-    image: '/public/estore.webp',
+    image: '/estore.webp',
   },
   {
     title: 'Udyog',
-    image: '/public/udyog.webp',
+    image: '/udyog.webp',
   },
 ];
 

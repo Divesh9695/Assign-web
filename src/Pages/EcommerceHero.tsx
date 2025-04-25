@@ -12,13 +12,13 @@ const EcommerceHero: React.FC = () => {
      
       <div className="relative z-10 mb-10 md:mb-0">
       <img
-            src="/public/dot.png" // Replace with your image path
+            src="/dot.png" // Replace with your image path
             alt="Excited Woman"
             className="w-[px] h-40 mx-auto"
           />
         <div className="bg-[#9400FF] rounded-2xl p-4 shadow-xl">
           <img
-            src="/public/girl1.webp" // Replace with your image path
+            src="/girl1.webp" // Replace with your image path
             alt="Excited Woman"
             className="w-[200px] h-auto mx-auto"
           />
@@ -26,7 +26,7 @@ const EcommerceHero: React.FC = () => {
         {/* Decorative Dots */}
         <div className="absolute top-[-20px] left-[-20px] w-16 h-16 bg-dotted-pattern" />
         <img
-            src="/public/dot.png" // Replace with your image path
+            src="/dot.png" // Replace with your image path
             alt="Excited Woman"
             className="w-[px] h-40 mx-auto"
           />

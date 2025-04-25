@@ -121,7 +121,7 @@ const LoginPage = () => {
                         regularly!
                     </p>
                     <img
-                        src="/public/buil.webp"
+                        src="/buil.webp"
                         alt="Engagement Image"
                         className="rounded-md shadow-md w-48 h-auto"
                     />

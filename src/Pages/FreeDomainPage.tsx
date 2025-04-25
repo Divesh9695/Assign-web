@@ -8,7 +8,7 @@ const FreeDomainPage = () => {
      
       {/* Decorative arrows */}
       <img
-  src="/up.webp" // ✅ Correct the path by removing `/public`
+  src="/up.webp" // ✅ Correct the path by removing ``
   alt="arrow left"
   className="absolute top-0 left-0 w-10 md:w-14 rotate-[-580deg] h-20"
 />
@@ -49,7 +49,7 @@ const FreeDomainPage = () => {
         <div className="flex justify-center">
           <div className="bg-purple-600 rounded-2xl shadow-lg p- h-60">
             <img
-              src="/public/boy.webp"
+              src="/boy.webp"
               alt="person with laptop"
               className="w-72 md:w-80 rounded-xl"
             />

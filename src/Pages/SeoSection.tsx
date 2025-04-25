@@ -52,7 +52,7 @@ const SeoSection: React.FC = () => {
         <div className="flex-1 flex justify-center">
           <div className="bg-[#7b1fa2] rounded-2xl shadow-lg p-2">
             <img
-              src="/public/man22.webp" // <-- replace with your image
+              src="/man22.webp" // <-- replace with your image
               alt="Man pointing"
               className="rounded-xl max-h-[400px] object-contain"
             />

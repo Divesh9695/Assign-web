@@ -18,7 +18,7 @@ const GetStartedSteps = () => {
       <div className="mt-12 flex flex-col md:flex-row justify-center items-start gap-10 max-w-6xl mx-auto">
         {/* Step 1 */}
         <div className="flex flex-col items-center max-w-sm">
-          <img src="/public/girl.webp" alt="Step 1" className="h-40" />
+          <img src="/girl.webp" alt="Step 1" className="h-40" />
           <p className="mt-4 px-4 py-1 bg-yellow-400 text-black font-semibold rounded">
             Step 1
           </p>
@@ -29,7 +29,7 @@ const GetStartedSteps = () => {
 
         {/* Step 2 */}
         <div className="flex flex-col items-center max-w-sm">
-          <img src="/public/lep.webp" alt="Step 2" className="h-40" />
+          <img src="/lep.webp" alt="Step 2" className="h-40" />
           <p className="mt-4 px-4 py-1 bg-yellow-400 text-black font-semibold rounded">
             Step 2
           </p>
@@ -40,7 +40,7 @@ const GetStartedSteps = () => {
 
         {/* Step 3 */}
         <div className="flex flex-col items-center max-w-sm">
-          <img src="/public/aro.webp" alt="Step 3" className="h-40" />
+          <img src="/aro.webp" alt="Step 3" className="h-40" />
           <p className="mt-4 px-4 py-1 bg-yellow-400 text-black font-semibold rounded">
             Step 3
           </p>
